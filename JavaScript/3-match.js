@@ -1,14 +1,9 @@
 'use strict';
 
-let s = 'My email is ';
+const s = 'Hello user1@domain.com and user2@domain.com';
 
-let rx = /\W@\W/g;
+const rx = /\S+@[\S.]+/g;
 
-let  = (s
-  .toLowerCase()
-  .replace(/\W+/g, ' ')
-  .trim()
-  .split(/\s/)
-);
+const m = s.match(rx);
 
-console.dir(words);
+console.dir(m);
