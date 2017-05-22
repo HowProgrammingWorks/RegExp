@@ -1,8 +1,8 @@
 'use strict';
 
-let s = 'Hello World, here we are!';
+const s = 'Hello World, here we are!';
 
-let words = (s
+const words = (s
   .toLowerCase()
   .replace(/\W+/g, ' ')
   .trim()
