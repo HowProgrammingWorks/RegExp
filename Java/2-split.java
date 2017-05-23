@@ -4,8 +4,7 @@ import java.util.regex.Pattern;
 /**
  * Example of using regular expressions for splitting strings.
  */
-public final class Split {
-
+final class Split {
     /**
      * Private constructor prevents class from being instantiated.
      */
@@ -21,7 +20,7 @@ public final class Split {
     public static void main(final String[] args) {
         String input = "Hello World, here we are!";
 
-        //Using String API
+        // Using String API
         String[] result1 = input.toLowerCase().split("\\W+");
         System.out.println(Arrays.toString(result1));
 

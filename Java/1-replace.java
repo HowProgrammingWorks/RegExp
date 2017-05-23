@@ -4,8 +4,7 @@ import java.util.regex.Pattern;
 /**
  * Example of using regular expressions for replacing strings.
  */
-public final class Replace {
-
+final class Replace {
     /**
      * Private constructor prevents class from being instantiated.
      */
