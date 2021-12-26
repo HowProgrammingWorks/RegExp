@@ -1,6 +1,6 @@
 'use strict';
 
-const words = s => [...new Set(s
+const words = (s) => [...new Set(s
   .toLowerCase()
   .replace(/\W+/g, ' ')
   .trim()
